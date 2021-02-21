@@ -1,0 +1,220 @@
+.center {
+    margin: auto;
+}
+.container {
+    width: 80%;
+    background-color: #eee;
+}
+.main-header {
+    text-align: center;
+    background: linear-gradient(#505050, #eee);
+    color: #eee;
+    padding: 10px;
+}
+.main-header a{
+    text-decoration: none;
+    color: #eee;
+}
+.main-header a:hover{
+    text-decoration: none;
+    color: rgb(168, 252, 179);
+}
+.user-area {
+    color: #404040;
+    text-align: center;
+}
+.user-bar {
+    margin: 5px;
+}
+.user-area a {
+    text-decoration: none;
+    padding: 3px;
+    color: #eee;
+    background-color: #505050;
+}
+.user-area a:hover {
+    color: #505050;
+    background-color: #eee;
+}
+.user-avatar {
+    margin-top: 3px;;
+    width: 100px;
+    height: 100px;
+}
+.sidebar {
+    float: left;
+    width: 20%;
+}
+.menu-item {
+    margin: 2px 0 2px 0;
+}
+.menu-item a {
+    text-decoration: none;
+    color: #eee;
+    background-color: #505050;
+    padding: 4px 4px 4px 10px;
+    display: block;
+}
+.menu-item a:hover {
+    color: #505050;
+    background-color: #eee;
+}
+.content {
+    float: right;
+    width: 78%;
+}
+.login-form {
+    width: 60%;
+}
+.login-form h3 {
+    width: 50%;
+}
+.login-form input{
+    width: 100%;
+}
+.login-form label{
+    padding-top: 6px;
+    display: inline-block;
+}
+.login-form input[type=submit] {
+    width: 100px;
+}
+.register-form {
+    width: 80%;
+}
+.register-form h3{
+    text-align: center;
+}
+.row {
+    margin-top: 10px;
+    border-bottom: solid 1 px rgb(231, 38, 38);
+}
+.row:after {
+    display: table;
+    clear: both;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.register-form input{
+    width: 100%;
+}
+.register-form label{
+    padding-top: 6px;
+    display: inline-block;
+}
+.register-form input[type=submit] {
+    width: 100px;
+}
+.clear {
+    clear: both;
+}
+.request-error {
+    color: red;
+}
+.invalid {
+    background-color: rgb(255, 206, 206);
+}
+.notes {
+    text-align: center;
+    font-size: small;
+}
+.control-panel {
+    
+}
+.control-panel h3 {
+    text-align: center;
+    color: #505050;
+}
+.cp-menu {
+
+}
+.cp-menu-item{
+    display: inline;
+    margin-right: 3px;
+}
+.cp-menu-item a {
+    text-decoration: none;
+    color: #eee;
+    background-color: #505050;
+}
+.cp-menu-item :hover {
+    color: #505050;
+    background-color: #eee;
+}
+.cp-user-row {
+    background-color: #ddd;
+    margin-bottom: 2px;
+}
+.cp-user-row a {
+    text-decoration: none;
+    color: #404040;
+}
+.cp-user-avatar {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+}
+.cp-user-login {
+    margin-top: 10px;
+}
+.cp-user-menu {
+    margin: 10px;
+}
+.cp-user-menu a {
+    text-decoration: none;
+    color: #eee;
+    background-color: #505050;
+}
+.cp-user-menu a:hover {
+    color: #505050;
+    background-color: #eee;
+}
+.cp-make-admin {
+    display: inline;
+}
+.cp-make-ban {
+    display: inline;
+}
+.main-footer {
+    text-align: center;
+    color: #404040;
+    margin-top: 20px;
+    height: 50px;
+    background: linear-gradient(#eee, #505050);
+}
+.error {
+    border: solid 1px red;
+    background-color: rgb(247, 216, 228);
+}
+.banned {
+    background-color: rgb(255, 220, 220);
+}
+.admin {
+    background-color: rgb(206, 207, 255);
+}
+
+@media(max-width: 750px){
+    .container {
+        width: 98%;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+    }
+    .register-form {
+        width: 100%;
+    }
+    .col-25, .col-75 {
+        width: 100%;
+    }
+}
